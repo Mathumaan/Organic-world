@@ -1,0 +1,77 @@
+h1{
+    color:green;
+}
+div{
+    color:blue;
+}
+h2{
+    color:green;
+}
+h3{
+    color:brown;
+}
+ul{
+    color:blueviolet
+}
+table thead{
+    color:blue;
+}
+table tbody{
+    color:orangered
+}
+ol{
+    color:deeppink;
+}
+dd{
+    color:mediumvioletred;
+}
+.mathu{
+    text-align:center;
+}
+table{
+    width:300px;
+    margin:auto;
+    /* border:2px solid black; */
+    border-collapse: collapse;
+    background-color: antiquewhite;
+    text-align: center;
+}
+th{
+  
+    text-transform: uppercase;
+    padding:10px;
+    
+}
+td{
+    padding:10px;
+}
+.body{
+   background:url("/backgroundimages.jpg");
+}
+form{
+    border:1px solid black;
+    width:350px;
+   margin:auto;
+   padding:20px;
+   background-color:rgba(201, 34, 34, 0.2)
+
+   
+}
+.textlabel{
+    display:block;
+    
+}
+ .input{
+    width:150px;
+    padding:7px;
+     box-shadow: 20px;
+     border-radius:5px;
+     margin:10px
+    
+}
+.btn{
+    background-color:pink;
+    font-size: 15px;
+    color:green;
+    padding:5px;
+}

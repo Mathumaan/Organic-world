@@ -1,0 +1,49 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit
+    
+    ,minmax(200px,1fr));
+    gap: 20px;
+
+}
+.para{
+    padding:1rem;
+    background-color:steelblue;
+    color:white;
+}
+.layout div{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    background-color:red;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.layout{
+    display:grid;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+     "h h h"
+    "sb1 m sb2"
+    "f f f";
+}
+.header{
+    grid-area:h;
+}
+
+
+.footer{
+    grid-area:f;
+}
+.square{
+    height:300px;
+    width:300px;
+    background-color: blueviolet;
+}
+
+
